@@ -1,0 +1,13 @@
+
+header .about-img .img img {
+    max-width: 100%;
+}
+.container .about {
+    color: gray;
+    text-align: justify;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

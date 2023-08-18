@@ -1,0 +1,78 @@
+header .contact-img img {
+    max-width: 100%;
+}
+.container .contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    width: 89%;
+}
+.container .contact-us .get-in-touch {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container .contact-us .get-in-touch p {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    color: #363744;
+}
+.container .contact-us .get-in-touch a {
+    color: #999;
+    transition: all 0.5s ease;
+}
+.container .contact-us .get-in-touch a:hover {
+    color: #49d0d1;
+    text-decoration: underline;
+}
+.container .contact-us .send-message {
+    display: flex;
+    flex-direction: column;
+}
+.container .contact-us .send-message p {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    color: #363744;
+    margin-bottom: 20px;
+}
+.container .contact-us .send-message form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container .contact-us .send-message form input {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.container .contact-us .send-message form input:focus {
+    outline: none;
+    border-bottom: 1px solid #49d0d1;
+}
+.container .contact-us .send-message form textarea {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 100px;
+}
+.container .contact-us .send-message form textarea:focus {
+    outline: none;
+    border: 1px solid #49d0d1;
+}
+.container .contact-us .send-message form :last-child {
+    cursor: pointer;
+    background-color: #49d0d1;
+    color: white;
+    border: none;
+    transition: all 0.5s ease;
+}
+.container .contact-us .send-message form :last-child:hover {
+    background-color: #363744;
+}
